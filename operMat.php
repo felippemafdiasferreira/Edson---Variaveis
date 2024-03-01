@@ -12,10 +12,16 @@
     // as 2 variaveis abaixo são do tipo inteiro
     $valor1 = 50;
     $valor2 = 20;
-    $soma = $valor1
-    $soma = $valor2
-    echo "Valor1:" .$valor1
-    echo
+    echo "<h4>OPERADOR MATEMÁTICO SOMA</h4>";
+    echo "Valor1: " .$valor1;
+    echo "<br>Valor2: " . $valor2;
+    $soma = $valor1 $valor2
+    echo "<br>A soma de $valor1 com $valor2 é " . $soma . "<chr>";
+    echo "<h4>Exibindo os tipos das variáveis através do comando vardump</h4>";
+    echo "<p>Variável tipo string</p>";
+    var dump($titulo);
+    echo "<p>Variável tipo inteira</p>";
+    var_dump($valor);
     ?>
 </body>
 </html>
